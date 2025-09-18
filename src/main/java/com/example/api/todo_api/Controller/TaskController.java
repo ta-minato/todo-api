@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.api.todo_api.entity.Task;
 import com.example.api.todo_api.service.TaskService;
+
 @CrossOrigin(origins = "http://localhost:8080") // localhost:8080からのクロスオリジンリクエストを許可する
 @RestController // このクラスがRESTfulなWebサービスのコントローラーであることを示す
 public class TaskController { 
